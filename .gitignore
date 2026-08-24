@@ -1,0 +1,8 @@
+.DS_Store
+._*
+train_series/
+test_series/
+*.dcm
+.venv/
+__pycache__/
+.ipynb_checkpoints/
