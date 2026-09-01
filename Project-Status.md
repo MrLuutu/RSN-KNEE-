@@ -1,43 +1,33 @@
-RSNA KNEE ABNORMALITY DETECTION
-PROJECT STATUS
+# RSNA Knee Abnormality Detection
 
-CURRENT LOCATION
-Mac mini local hard drive
+**Kaggle:** https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/overview
+**GitHub:** https://github.com/MrLuutu/RSN-KNEE-
 
-PROJECT FOLDER
-rsna-knee-abnormality-detection
+## Status
 
-CURRENT ENVIRONMENT
-VS Code
+* Dataset downloaded and explored
+* DICOM files successfully loaded
+* MRI studies, series, dimensions, and labels examined
+* DICOM loader added to the repository
+* `._` macOS files excluded
 
-GITHUB REPOSITORY
-None yet
+## Current Problem
 
-KAGGLE
-RSNA Knee Abnormality Detection
+Define a reliable pipeline for converting each knee MRI study into model input:
 
-CURRENT DATA AVAILABLE
-- train.csv
-- train_series.csv
-- test.csv
-- test_series.csv
-- sample_submission.csv
-- train_series/
-- test_series/
+`DICOM → Series → Slice Ordering → Preprocessing → Model`
 
-WORK ALREADY COMPLETED
-- Dataset downloaded/accessed
-- Dataset explored
-- MRI data viewed
-- Study/series structure examined
-- DICOM images examined
-- Different MRI slice dimensions observed
-- Labels explored
-- 58 abnormal studies identified during initial exploration
+## Next Step
 
-WHERE WE STOPPED
-We need to figure out how to convert one complete
-knee MRI study into a consistent input for the first model.
+Build a baseline model after deciding:
+
+* Slice ordering
+* Image preprocessing
+* Sequence handling
+* Study-level train/validation splits
+
+**Seeking advice on the MRI preprocessing and model architecture before training begins.**
+
 
 NEXT STEP
 Investigate the existing MRI series and determine the first
