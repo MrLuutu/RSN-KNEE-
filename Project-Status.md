@@ -36,14 +36,10 @@ WORK ALREADY COMPLETED
 - 58 abnormal studies identified during initial exploration
 
 WHERE WE STOPPED
-The unresolved technical question is how to convert one complete
+We need to figure out how to convert one complete
 knee MRI study into a consistent input for the first model.
 
 NEXT STEP
 Investigate the existing MRI series and determine the first
 preprocessing approach.
 
-IMPORTANT
-Do not delete or replace existing data.
-Do not start training yet.
-Do not change the preprocessing yet.
